@@ -7,10 +7,6 @@
 pprint.pprint(json_response['hits']['hits'][0]) """
 
 
-
-
-from ast import With
-from numpy import insert, product
 import requests, json
 from prefect import task, Flow
 import os
